@@ -81,5 +81,7 @@ multiplicar(tecla5, teclaX, tecla5)
 
 #time.sleep(2)  #wait implicito
 
+#driver.make_gsm_call("101010", "call")
+driver.send_sms("101010", "bom dia")
 
 driver.quit()
